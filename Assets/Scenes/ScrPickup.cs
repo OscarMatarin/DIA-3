@@ -17,6 +17,6 @@ public class ScrPickup : MonoBehaviour
     void Update()
     {
         //transform.Rotate(0, 0, 5);
-        transform.Rotate(0, 0, velGir); 
+        transform.Rotate(0, 0, velGir * Time.deltaTime); 
     }
 }

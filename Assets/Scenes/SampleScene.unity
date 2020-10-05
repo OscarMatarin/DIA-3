@@ -404,6 +404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1138573454}
   - component: {fileID: 1138573453}
+  - component: {fileID: 1138573455}
   m_Layer: 0
   m_Name: UFO
   m_TagString: Untagged
@@ -475,6 +476,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1138573455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138573452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af6b934ce7e8ca43aae536876072f25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 30
 --- !u!1 &1603168705
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,7 +519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81a12bd3274f3404aad90397148863e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velGir: 5
+  velGir: 80
 --- !u!212 &1603168707
 SpriteRenderer:
   m_ObjectHideFlags: 0
